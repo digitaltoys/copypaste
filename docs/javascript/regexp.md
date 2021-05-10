@@ -24,7 +24,7 @@ a* a+ a?	0 or more, 1 or more, 0 or 1
 \.\*\\	escaped special characters  
 \t\n\r	tab, linefeed, carriage return  
 
-### group
+### Group
 (ABC)    capture group  
 (?<name>ABC) named capture group  
 \1       numeric reference  
