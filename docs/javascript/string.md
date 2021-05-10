@@ -1,11 +1,11 @@
 ---
 layout: default
-title : string
+title : String
 nav_order: 2
 parent : JavaScript
 ---
 
-## string
+## String
 
 ```javascript
 var str = "Hello world, welcome to the universe.";
