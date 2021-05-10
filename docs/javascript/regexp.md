@@ -25,16 +25,16 @@ a* a+ a?	0 or more, 1 or more, 0 or 1
 \t\n\r	tab, linefeed, carriage return  
 
 ### group
-(ABC)    capture group
-(?<name>ABC) named capture group
-\1       numeric reference
-(?:ABC)  non capture group
+(ABC)    capture group  
+(?<name>ABC) named capture group  
+\1       numeric reference  
+(?:ABC)  non capture group  
   
 ### Lookaround
-(?=ABC) positive lookahead
-(?!ABC) negative lookahead
-(?<=ABC) positive lookbehind
-(?<!ABC) negative lookbehind
+(?=ABC) positive lookahead  
+(?!ABC) negative lookahead  
+(?<=ABC) positive lookbehind  
+(?<!ABC) negative lookbehind  
 
 ```javascript
 a="1pt 2px 3em 4px"
