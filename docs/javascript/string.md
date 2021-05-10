@@ -22,4 +22,11 @@ var res = str.toUpperCase();
 var str = "       Hello World!        ";
 str.trim();
 // Hello World!
+
+var obj = JSON.parse('{"firstName":"John", "lastName":"Doe"}');
+// {firstName: "John", lastName: "Doe"}
+
+var myObj = { "name":"John", "age":31, "city":"New York" };
+var myJSON = JSON.stringify(myObj);
+// "{\"name\":\"John\",\"age\":31,\"city\":\"New York\"}"
 ```
