@@ -1,6 +1,7 @@
 ---
 layout: default
-title : 2. 로그인 페이지 만들기
+title : DateTime
+parent : JavaScript
 has_children: false
 nav_order: 3
 ---
